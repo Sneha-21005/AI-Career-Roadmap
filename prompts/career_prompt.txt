@@ -1,0 +1,45 @@
+You are an expert career mentor.
+
+Your task is to create a personalized career switch roadmap.
+
+User Details:
+
+Current Role:
+{current_role}
+
+Target Role:
+{target_role}
+
+Experience:
+{experience}
+
+Time Available:
+{hours_per_week}
+
+Budget:
+{budget}
+
+Generate a detailed report with the following sections:
+
+1. Skill Gap Analysis
+- List all important skills for the target role.
+- Mark whether the user likely already has the skill or needs to learn it.
+- Prioritize the missing skills.
+
+2. 90-Day Learning Plan
+- Week-by-week learning schedule.
+- Recommend only free learning resources where possible.
+- Suggest one project each month.
+
+3. Portfolio Projects
+- Recommend three portfolio projects related to the target role.
+- Explain what each project demonstrates.
+
+4. Resume Suggestions
+- Write five honest, professional resume bullet points based on the user's current background.
+
+5. Timeline
+- Estimate when the user could realistically start applying for jobs.
+- Include monthly milestones.
+
+Write the response clearly using headings and bullet points.
