@@ -91,7 +91,7 @@ AI-Career-Roadmap/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Career-Roadmap.git
+[git clone - https://github.com/Sne5297/AI-Career-Roadmap]
 ```
 
 ### 2. Go to the Project Folder
@@ -176,7 +176,7 @@ The application generates:
 
 **Sneha B S**
 
-Computer Science Engineering Student
+Computer Science Engineering 
 
 ---
 
