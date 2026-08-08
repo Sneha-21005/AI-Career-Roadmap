@@ -21,9 +21,13 @@ import re
 env_path = Path(__file__).parent.parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
-api_key = os.getenv("GOOGLE_API_KEY")
-client = genai.Client(api_key=api_key)
+api_key = st.secrets.get("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY")
 
+if not api_key:
+    st.error("Google API key is not configured.")
+    st.stop()
+
+client = genai.Client(api_key=api_key)
 pdfmetrics.registerFont(
     TTFont(
         "TimesNewRoman",
