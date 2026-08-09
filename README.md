@@ -27,6 +27,13 @@ Generate a personalized **90-day AI career transition roadmap** using **Google G
 
 ---
 
+## 🚀 Live Demo
+
+[![Open Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://careerroadmap.streamlit.app/)
+
+Try the application live and generate your own AI career roadmap.
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -172,7 +179,7 @@ The application generates:
 
 ---
 
-# 👩‍💻 Author
+# 👩‍💻 Developer
 
 **Sneha B S**
 
