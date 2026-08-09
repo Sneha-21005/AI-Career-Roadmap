@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 from google import genai
 from dotenv import load_dotenv
@@ -435,4 +434,3 @@ Keep the roadmap practical for the user's available weekly hours and budget.
                 )
 
                 st.exception(e)
-```
